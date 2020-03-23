@@ -1,0 +1,25 @@
+ADT Singly Linked List
+
+gcc -o singly singlylinkedlist.c
+
+./singly
+
+Elements in List: 4
+10
+12
+2
+5
+Elements in List: 3
+12
+2
+5
+Elements in List: 2
+12
+5
+Elements in List: 3
+7
+12
+5
+
+
+

@@ -1,0 +1,17 @@
+gcc -Wall -o dyna DynamicStack.h main.c
+
+./dyna
+
+Enter an RPN Expression: 5 2 * =
+Value of Expression: 10
+Enter an RPN Expression: 7 6 - =
+Value of Expression: 1
+Enter an RPN Expression: 7 6 - 7 6 - / =
+Value of Expression: 1
+Enter an RPN Expression: 1 2 3 * + =
+Value of Expression: 7
+Enter an RPN Expression: 5 8 * 4 9 - / =
+Value of Expression: -8
+Enter an RPN Expression: 6 5 * 5 6 * / =
+Value of Expression: 1
+Enter an RPN Expression: q
