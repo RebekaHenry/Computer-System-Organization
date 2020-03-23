@@ -1,0 +1,247 @@
+gcc -g  SortingColors.c
+
+./a
+Type a CGA color in lowercase letters. To quit, type quit and the ENTER key
+light gray
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: light gray
+Value: #AAAAAA
+
+dark gray
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: dark gray
+Value: #555555
+
+black
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: black
+Value: #000000
+
+blue
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: blue
+Value: #0000AA
+
+green
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: green
+Value: #00AA00
+
+magenta
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: magenta
+Value: #AA00AA
+
+red
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: red
+Value: #AA0000
+
+white
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: white
+Value: #FFFFFF
+
+cyan
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: cyan
+Value: #00AAAA
+
+light cyan
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: light cyan
+Value: #55FFFF
+
+brown
+Colors black
+Colors blue
+Colors brown
+Colors cyan
+Colors dark gray
+Colors green
+Colors light blue
+Colors light cyan
+Colors light gray
+Colors light green
+Colors light magenta
+Colors light red
+Colors magenta
+Colors red
+Colors white
+Colors yellow
+
+
+Key: brown
+Value: #AA5500
+
+quit
