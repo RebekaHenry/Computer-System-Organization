@@ -1,0 +1,260 @@
+make main
+cc    -c -o main.o main.c
+cc    -c -o hash_table.o hash_table.c
+cc    -c -o teamInfo_orig.o teamInfo_orig.c
+cc -Wall  main.o hash_table.o teamInfo_orig.o   -o main
+
+./main
+readTeamInfo: Reading team info file...
+// 2019 MLS Soccer team standings
+// Format:
+// Team_name" Nickname" league conference #wins-#losses-#ties
+//
+// Team name:   String (char[30]) containing the name of the team - '_' for spaces
+// Nickname:    String (char[5]) containing the nick name of the team
+// League:              int containing 1 for MSL, 2 for NWSL, 3 for USL, 0 for other
+// Conference:  int containing 1 for Eastern, 2 for Western, 3 for NWSL, 0 for other
+// #wins:               int containing the number of games won during the regular season
+// #losses:             int containing the number of games lost during the regular season
+// #draws:              int containing the number of games drawn (ties) during the regular season
+readTeamInfo: Added record 0
+readTeamInfo: Added record 1
+readTeamInfo: Added record 2
+readTeamInfo: Added record 3
+readTeamInfo: Added record 4
+readTeamInfo: Added record 5
+readTeamInfo: Added record 6
+readTeamInfo: Added record 7
+readTeamInfo: Added record 8
+readTeamInfo: Added record 9
+readTeamInfo: Added record 10
+readTeamInfo: Added record 11
+readTeamInfo: Added record 12
+readTeamInfo: Added record 13
+readTeamInfo: Added record 14
+readTeamInfo: Added record 15
+readTeamInfo: Added record 16
+readTeamInfo: Added record 17
+readTeamInfo: Added record 18
+readTeamInfo: Added record 19
+readTeamInfo: Added record 20
+readTeamInfo: Added record 21
+readTeamInfo: Added record 22
+readTeamInfo: Added record 23
+readTeamInfo: Added record 24
+readTeamInfo: Added record 25
+readTeamInfo: Added record 26
+readTeamInfo: Added record 27
+readTeamInfo: Added record 28
+readTeamInfo: Added record 29
+readTeamInfo: Added record 30
+readTeamInfo: Added record 31
+readTeamInfo: Added record 32
+readTeamInfo: Added record 33
+readTeamInfo: Added record 34
+readTeamInfo: Added record 35
+readTeamInfo: Added record 36
+readTeamInfo: Added record 37
+readTeamInfo: Added record 38
+readTeamInfo: Added record 39
+readTeamInfo: Added record 40
+readTeamInfo: Added record 41
+readTeamInfo: Added record 42
+readTeamInfo: Added record 43
+readTeamInfo: Added record 44
+readTeamInfo: Added record 45
+readTeamInfo: Added record 46
+readTeamInfo: Added record 47
+readTeamInfo: Added record 48
+readTeamInfo: Added record 49
+readTeamInfo: Added record 50
+
+
+        hash_table: Inserted hash table[21], k:v = MLSNYC:0x203d05e0
+        hash_table: Inserted hash table[22], k:v = MLSATL:0x203d0620
+        hash_table: Inserted hash table[52], k:v = MLSPHI:0x203d0660
+        hash_table: Inserted hash table[12], k:v = MLSTOR:0x203d06a0
+        hash_table: Inserted hash table[62], k:v = MLSDC:0x203d06e0
+        hash_table: Inserted hash table[00], k:v = MLSRBNY:0x203d0720
+        hash_table: Inserted hash table[44], k:v = MLSNE:0x203d0760
+        hash_table: Inserted hash table[34], k:v = MLSCHI:0x203d07a0
+        hash_table: Inserted hash table[19], k:v = MLSMTL:0x203d07e0
+        hash_table: Inserted hash table[36], k:v = MLSCLB:0x203d0820
+        hash_table: Inserted hash table[14], k:v = MLSORL:0x203d0860
+        hash_table: Inserted hash table[20], k:v = MLSCIN:0x203d08a0
+        hash_table: Inserted hash table[38], k:v = MLSLAFC:0x203d08e0
+        hash_table: Inserted hash table[79], k:v = MLSSEA:0x203d0920
+        hash_table: Inserted hash table[58], k:v = MLSRSL:0x203d0960
+        hash_table: Inserted hash table[60], k:v = MLSMIN:0x203d09a0
+        hash_table: Inserted hash table[24], k:v = MLSLAG:0x203d09e0
+        hash_table: Inserted hash table[13], k:v = MLSPOR:0x203d0a20
+        hash_table: Inserted hash table[54], k:v = MLSDAL:0x203d0a60
+        hash_table: Inserted hash table[39], k:v = MLSSJ:0x203d0aa0
+        hash_table: Inserted hash table[74], k:v = MLSCOL:0x203d0ae0
+        hash_table: Inserted hash table[18], k:v = MLSHOU:0x203d0b20
+        hash_table: Inserted hash table[81], k:v = MLSSKC:0x203d0b60
+        hash_table: Inserted hash table[61], k:v = MLSVAN:0x203d0ba0
+        hash_table: Inserted hash table[65], k:v = NWSLNC:0x203d0be0
+        hash_table: Inserted hash table[48], k:v = NWSLCHI:0x203d0c20
+        hash_table: Inserted hash table[27], k:v = NWSLPOR:0x203d0c60
+        hash_table: Inserted hash table[71], k:v = NWSLTAC:0x203d0ca0
+        hash_table: Inserted hash table[06], k:v = NWSLDC:0x203d0ce0
+        hash_table: Inserted hash table[15], k:v = NWSLUTE:0x203d0d20
+        hash_table: Inserted hash table[32], k:v = NWSLHOU:0x203d0d60
+        hash_table: Inserted hash table[72], k:v = NWSLNJ:0x203d0da0
+        hash_table: Inserted hash table[28], k:v = NWSLORL:0x203d0de0
+        hash_table: Inserted hash table[66], k:v = USLPHX:0x203d0e20
+        hash_table: Inserted hash table[09], k:v = USLNEV:0x203d0e60
+        hash_table: Inserted hash table[02], k:v = USLFRE:0x203d0ea0
+        hash_table: Inserted hash table[47], k:v = USLSLC:0x203d0ee0
+        hash_table: Inserted hash table[17], k:v = USLORA:0x203d0f20
+        hash_table: Inserted hash table[51], k:v = USLELP:0x203d0f60
+        hash_table: Inserted hash table[01], k:v = USLSAC:0x203d0fa0
+        hash_table: Inserted hash table[73], k:v = USLAUS:0x203d0fe0
+        hash_table: Inserted hash table[57], k:v = USLLAG:0x203d1020
+        hash_table: Inserted hash table[29], k:v = USLNM:0x203d1060
+        hash_table: Inserted hash table[83], k:v = USLSAT:0x203d10a0
+        hash_table: Inserted hash table[10], k:v = USLRIO:0x203d10e0
+        hash_table: Inserted hash table[40], k:v = USLLAS:0x203d1120
+        hash_table: Inserted hash table[82], k:v = USLPOR:0x203d1160
+        hash_table: Inserted hash table[67], k:v = USLOKC:0x203d11a0
+        hash_table: Inserted hash table[76], k:v = USLTUL:0x203d11e0
+        hash_table: Inserted hash table[35], k:v = USLTAC:0x203d1220
+        hash_table: Inserted hash table[03], k:v = USLCOL:0x203d1260
+Enter the League and NickName on one Line CAPITALIZED. To quit, type quit and the ENTER key
+USLCOL
+hash_table: Searching for key: USLCOL, bucket: 3
+Name: Col Spgs Switchbacks
+Nickname: COL
+League: USL
+Conference: OTHER
+Wins: 7
+Losses: 21
+Draws:6
+
+
+NWSLNJ
+hash_table: Searching for key: NWSLNJ, bucket: 72
+Name: Sky Blue FC
+Nickname: NJ
+League: NWSL
+Conference: NWSL
+Wins: 5
+Losses: 14
+Draws:5
+
+
+MLSSEA
+hash_table: Searching for key: MLSSEA, bucket: 79
+Name: Seattle Sounders
+Nickname: SEA
+League: MLS
+Conference: WESTERN
+Wins: 16
+Losses: 10
+Draws:8
+
+
+USLFRE
+hash_table: Searching for key: USLFRE, bucket: 2
+Name: Fresno FC
+Nickname: FRE
+League: USL
+Conference: OTHER
+Wins: 16
+Losses: 9
+Draws:9
+
+
+MLSCIN
+hash_table: Searching for key: MLSCIN, bucket: 20
+Name: FC Cincinnati
+Nickname: CIN
+League: MLS
+Conference: EASTERN
+Wins: 6
+Losses: 22
+Draws:6
+
+
+USLNEW
+hash_table: Searching for key: USLNEW, bucket: 10
+No Team Found
+USLNEV
+hash_table: Searching for key: USLNEV, bucket: 9
+Name: Reno 1868 FC
+Nickname: NEV
+League: USL
+Conference: OTHER
+Wins: 18
+Losses: 10
+Draws:6
+
+
+quit
+Hash table contains:
+
+        Hash Table[00] has k:v = MLSRBNY:0x203d0720
+        Hash Table[01] has k:v = USLSAC:0x203d0fa0
+        Hash Table[02] has k:v = USLFRE:0x203d0ea0
+        Hash Table[03] has k:v = USLCOL:0x203d1260..
+        Hash Table[06] has k:v = NWSLDC:0x203d0ce0..
+        Hash Table[09] has k:v = USLNEV:0x203d0e60
+        Hash Table[10] has k:v = USLRIO:0x203d10e0.
+        Hash Table[12] has k:v = MLSTOR:0x203d06a0
+        Hash Table[13] has k:v = MLSPOR:0x203d0a20
+        Hash Table[14] has k:v = MLSORL:0x203d0860
+        Hash Table[15] has k:v = NWSLUTE:0x203d0d20.
+        Hash Table[17] has k:v = USLORA:0x203d0f20
+        Hash Table[18] has k:v = MLSHOU:0x203d0b20
+        Hash Table[19] has k:v = MLSMTL:0x203d07e0
+        Hash Table[20] has k:v = MLSCIN:0x203d08a0
+        Hash Table[21] has k:v = MLSNYC:0x203d05e0
+        Hash Table[22] has k:v = MLSATL:0x203d0620.
+        Hash Table[24] has k:v = MLSLAG:0x203d09e0..
+        Hash Table[27] has k:v = NWSLPOR:0x203d0c60
+        Hash Table[28] has k:v = NWSLORL:0x203d0de0
+        Hash Table[29] has k:v = USLNM:0x203d1060..
+        Hash Table[32] has k:v = NWSLHOU:0x203d0d60.
+        Hash Table[34] has k:v = MLSCHI:0x203d07a0
+        Hash Table[35] has k:v = USLTAC:0x203d1220
+        Hash Table[36] has k:v = MLSCLB:0x203d0820.
+        Hash Table[38] has k:v = MLSLAFC:0x203d08e0
+        Hash Table[39] has k:v = MLSSJ:0x203d0aa0
+        Hash Table[40] has k:v = USLLAS:0x203d1120...
+        Hash Table[44] has k:v = MLSNE:0x203d0760..
+        Hash Table[47] has k:v = USLSLC:0x203d0ee0
+        Hash Table[48] has k:v = NWSLCHI:0x203d0c20..
+        Hash Table[51] has k:v = USLELP:0x203d0f60
+        Hash Table[52] has k:v = MLSPHI:0x203d0660.
+        Hash Table[54] has k:v = MLSDAL:0x203d0a60..
+        Hash Table[57] has k:v = USLLAG:0x203d1020
+        Hash Table[58] has k:v = MLSRSL:0x203d0960.
+        Hash Table[60] has k:v = MLSMIN:0x203d09a0
+        Hash Table[61] has k:v = MLSVAN:0x203d0ba0
+        Hash Table[62] has k:v = MLSDC:0x203d06e0..
+        Hash Table[65] has k:v = NWSLNC:0x203d0be0
+        Hash Table[66] has k:v = USLPHX:0x203d0e20
+        Hash Table[67] has k:v = USLOKC:0x203d11a0...
+        Hash Table[71] has k:v = NWSLTAC:0x203d0ca0
+        Hash Table[72] has k:v = NWSLNJ:0x203d0da0
+        Hash Table[73] has k:v = USLAUS:0x203d0fe0
+        Hash Table[74] has k:v = MLSCOL:0x203d0ae0.
+        Hash Table[76] has k:v = USLTUL:0x203d11e0..
+        Hash Table[79] has k:v = MLSSEA:0x203d0920.
+        Hash Table[81] has k:v = MLSSKC:0x203d0b60
+        Hash Table[82] has k:v = USLPOR:0x203d1160
+        Hash Table[83] has k:v = USLSAT:0x203d10a0.
+
+
+                                                                                      
+
+rm main
+
+ls
+Makefile          hash_table.h      hashlog.log       main.o            teamInfo_orig.c   teamInfo_orig.o   test_hashtable.c
+hash_table.c      hash_table.o      main.c            recipeds          teamInfo_orig.h   teaminfo2.txt
+
+./main
+bash: ./main: No such file or directory
+
